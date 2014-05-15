@@ -1,22 +1,31 @@
+@font-face{
+    font-family: 'fontin';
+    src: url('Fontin-Regular.ttf') format('truetype');
+}
+
 body {
-	font: 12px/18px arial, sans-serif;
+	font: 12px/18px Georgia, serif;	
     margin: 4em auto;
     width: 600px;
 }
 
-h1 {
-	font: 21px Georgia, "Times New Roman", Times, serif;
+h1 
+{
+	font-family:'fontin', serif;
+    font-size: 225%;
 }
 
 h2 {
 	font: 18px Georgia, "Times New Roman", Times, serif;
+	
 }
 
-img[align=right] {
+img[align=left] {
     margin: 0 0 2em 2em;
-    border: 1px solid #eee;
+    border: 0px solid #eee;
     padding: 4px;
 }
+
 
 small a {
     font-family:arial, sans-serif;
