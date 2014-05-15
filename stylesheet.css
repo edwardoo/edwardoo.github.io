@@ -4,6 +4,7 @@
 }
 
 body {
+	background-color:black;
 	font: 12px/18px Georgia, serif;	
     margin: 4em auto;
     width: 600px;
@@ -15,7 +16,17 @@ h1
     font-size: 225%;
 }
 
+h1 span { 
+    background-color: white; 
+}
+
+p
+{
+	color:white;
+}
+
 h2 {
+	color:white;
 	font: 18px Georgia, "Times New Roman", Times, serif;
 	
 }
