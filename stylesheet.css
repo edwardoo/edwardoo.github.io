@@ -5,7 +5,7 @@
 
 body {
 	background-color:black;
-	font: 12px/18px Georgia, serif;	
+	font: 12px/18px "Lucida sans Unicode", sans-serif;	
     margin: 4em auto;
     width: 600px;
 }
@@ -17,7 +17,7 @@ h1
 }
 
 h1 span { 
-    background-color: gray; 
+    background-color: #D0D0D0 ; 
 }
 
 p
